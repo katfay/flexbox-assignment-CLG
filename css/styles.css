@@ -1,0 +1,31 @@
+.layout {
+  border: 1px red solid;
+}
+
+body {
+  font-family: "Staatliches", cursive;
+}
+
+h1 {
+  color: cornflowerblue;
+  font-size: 5rem;
+  padding: 0 1rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.site-logo {
+  height: 100px;
+}
+
+#main-container {
+  display: flex;
+}
+
+#site-heading-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #000000;
+  border-radius: 15px;
+}
